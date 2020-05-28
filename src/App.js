@@ -1,6 +1,7 @@
 import React from 'react';
 import Fecha from './Components/Fecha'
 import FechaProvider from './Context/index'
+import'./App.scss'
 
 const App = (props) => {
   return (
