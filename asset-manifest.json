@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/milexys/desafio-cumplo/static/css/main.dd818f4a.chunk.css",
-    "main.js": "/milexys/desafio-cumplo/static/js/main.39b626e7.chunk.js",
-    "main.js.map": "/milexys/desafio-cumplo/static/js/main.39b626e7.chunk.js.map",
-    "runtime-main.js": "/milexys/desafio-cumplo/static/js/runtime-main.1b27644d.js",
-    "runtime-main.js.map": "/milexys/desafio-cumplo/static/js/runtime-main.1b27644d.js.map",
-    "static/css/2.ecffae5e.chunk.css": "/milexys/desafio-cumplo/static/css/2.ecffae5e.chunk.css",
-    "static/js/2.134a6368.chunk.js": "/milexys/desafio-cumplo/static/js/2.134a6368.chunk.js",
-    "static/js/2.134a6368.chunk.js.map": "/milexys/desafio-cumplo/static/js/2.134a6368.chunk.js.map",
-    "index.html": "/milexys/desafio-cumplo/index.html",
-    "precache-manifest.cec62f9b7ad776fb8d3a1e16601e5e9f.js": "/milexys/desafio-cumplo/precache-manifest.cec62f9b7ad776fb8d3a1e16601e5e9f.js",
-    "service-worker.js": "/milexys/desafio-cumplo/service-worker.js",
-    "static/css/2.ecffae5e.chunk.css.map": "/milexys/desafio-cumplo/static/css/2.ecffae5e.chunk.css.map",
-    "static/css/main.dd818f4a.chunk.css.map": "/milexys/desafio-cumplo/static/css/main.dd818f4a.chunk.css.map",
-    "static/js/2.134a6368.chunk.js.LICENSE.txt": "/milexys/desafio-cumplo/static/js/2.134a6368.chunk.js.LICENSE.txt"
+    "main.css": "/desafio-cumplo/static/css/main.dd818f4a.chunk.css",
+    "main.js": "/desafio-cumplo/static/js/main.bfa5900a.chunk.js",
+    "main.js.map": "/desafio-cumplo/static/js/main.bfa5900a.chunk.js.map",
+    "runtime-main.js": "/desafio-cumplo/static/js/runtime-main.bb34c76a.js",
+    "runtime-main.js.map": "/desafio-cumplo/static/js/runtime-main.bb34c76a.js.map",
+    "static/css/2.ecffae5e.chunk.css": "/desafio-cumplo/static/css/2.ecffae5e.chunk.css",
+    "static/js/2.134a6368.chunk.js": "/desafio-cumplo/static/js/2.134a6368.chunk.js",
+    "static/js/2.134a6368.chunk.js.map": "/desafio-cumplo/static/js/2.134a6368.chunk.js.map",
+    "index.html": "/desafio-cumplo/index.html",
+    "precache-manifest.e126937edcaf8e2453e7b47ca9756b6d.js": "/desafio-cumplo/precache-manifest.e126937edcaf8e2453e7b47ca9756b6d.js",
+    "service-worker.js": "/desafio-cumplo/service-worker.js",
+    "static/css/2.ecffae5e.chunk.css.map": "/desafio-cumplo/static/css/2.ecffae5e.chunk.css.map",
+    "static/css/main.dd818f4a.chunk.css.map": "/desafio-cumplo/static/css/main.dd818f4a.chunk.css.map",
+    "static/js/2.134a6368.chunk.js.LICENSE.txt": "/desafio-cumplo/static/js/2.134a6368.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b27644d.js",
+    "static/js/runtime-main.bb34c76a.js",
     "static/css/2.ecffae5e.chunk.css",
     "static/js/2.134a6368.chunk.js",
     "static/css/main.dd818f4a.chunk.css",
-    "static/js/main.39b626e7.chunk.js"
+    "static/js/main.bfa5900a.chunk.js"
   ]
 }
