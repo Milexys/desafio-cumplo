@@ -17,6 +17,7 @@
     "react-vis": "^1.11.7"
   },
   "scripts": {
+    "deploy": "gh-pages -d src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
