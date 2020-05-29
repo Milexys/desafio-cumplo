@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Milexys/Desafio-cumplo/static/css/main.dd818f4a.chunk.css",
+    "main.js": "/Milexys/Desafio-cumplo/static/js/main.e5929102.chunk.js",
+    "main.js.map": "/Milexys/Desafio-cumplo/static/js/main.e5929102.chunk.js.map",
+    "runtime-main.js": "/Milexys/Desafio-cumplo/static/js/runtime-main.cac3c872.js",
+    "runtime-main.js.map": "/Milexys/Desafio-cumplo/static/js/runtime-main.cac3c872.js.map",
+    "static/css/2.ecffae5e.chunk.css": "/Milexys/Desafio-cumplo/static/css/2.ecffae5e.chunk.css",
+    "static/js/2.134a6368.chunk.js": "/Milexys/Desafio-cumplo/static/js/2.134a6368.chunk.js",
+    "static/js/2.134a6368.chunk.js.map": "/Milexys/Desafio-cumplo/static/js/2.134a6368.chunk.js.map",
+    "index.html": "/Milexys/Desafio-cumplo/index.html",
+    "precache-manifest.5e4eebd2908ce4b7c9782e48fe1c0ee1.js": "/Milexys/Desafio-cumplo/precache-manifest.5e4eebd2908ce4b7c9782e48fe1c0ee1.js",
+    "service-worker.js": "/Milexys/Desafio-cumplo/service-worker.js",
+    "static/css/2.ecffae5e.chunk.css.map": "/Milexys/Desafio-cumplo/static/css/2.ecffae5e.chunk.css.map",
+    "static/css/main.dd818f4a.chunk.css.map": "/Milexys/Desafio-cumplo/static/css/main.dd818f4a.chunk.css.map",
+    "static/js/2.134a6368.chunk.js.LICENSE.txt": "/Milexys/Desafio-cumplo/static/js/2.134a6368.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cac3c872.js",
+    "static/css/2.ecffae5e.chunk.css",
+    "static/js/2.134a6368.chunk.js",
+    "static/css/main.dd818f4a.chunk.css",
+    "static/js/main.e5929102.chunk.js"
+  ]
+}
