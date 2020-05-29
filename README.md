@@ -6,3 +6,6 @@ Este proyecto fue realizado con el siguiente objetivo de  obtener y visualizar e
 ### `Tecnología utilizada: `
 
 React, react-datepicker, react-vis, node-sass, moment.
+
+[Link del proyecto](https://milexys.github.io/desafio-cumplo/)
+
