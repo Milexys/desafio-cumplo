@@ -13,7 +13,7 @@ const FechaProvider = (props) => {
             startDate, 
             setStartDate,
             endDate,
-            setEndDate
+            setEndDate,
         }}>
             {props.children}
         </fechaContext.Provider>

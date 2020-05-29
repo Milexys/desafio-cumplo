@@ -4,6 +4,7 @@ import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import moment from 'moment';
 import es from 'date-fns/locale/es';
+import Grafico from '../Grafico/index'
 
 
 const Fecha = () => {
@@ -15,6 +16,8 @@ const Fecha = () => {
         minimo: 0,
         maximo: 0
     })
+
+    const [ejeXY, setEjes] = useState()
 
     useEffect(() => {
         const consultarAPI = async () => {
@@ -29,13 +32,13 @@ const Fecha = () => {
             const resultado = await respuesta.json()
 
 
-
             const valores = resultado.Dolares.map(element => element.Valor)
             const len = valores.length
             const prom = valores.reduce(function (a, b) { return parseInt(a) + parseInt(b) })
             const minim = valores.reduce(function (a, b) { return Math.min(parseFloat(a), parseFloat(b)) })
             const maxim = valores.reduce(function (a, b) { return Math.max(parseFloat(a), parseFloat(b)) })
-
+            
+            const ejes = resultado.Dolares.map(element => {return {x: element.Fecha, y: parseInt(element.Valor)}})
 
             actualizarResultados({
                 promedio: prom / len,
@@ -43,28 +46,28 @@ const Fecha = () => {
                 maximo: maxim
             })
 
-            console.log(valores)
+            setEjes(ejes)
+
+           
         }
 
         consultarAPI()
-    }, [startDate, endDate])
-
+    }, [startDate, endDate, setEjes])
 
     return (
-        <React.Fragment>
-
+        <div className="content">
+            <div className="calendar">
             <label>Fecha Inicial:</label>
-            <div>
                 <DatePicker
                     dateFormat="dd/MM/yyyy"
                     locale={es}
                     selected={startDate}
                     placeholderText="Selecciona una Fecha"
-                    maxDate={new Date()}
+                    maxDate={startDate === null ? new Date() : endDate}
                     onChange={date => setStartDate(date)}
                 />
             </div>
-            <div>
+            <div className="calendar-2">
                 <label>Fecha Final:</label>
                 <DatePicker
                     dateFormat="dd/MM/yyyy"
@@ -77,10 +80,16 @@ const Fecha = () => {
                     minDate={startDate}
                 />
             </div>
-            <p>Promedio: $ {resultados.promedio}</p>
+            <div className="results">
+            <p>Promedio: $ {Math.round(resultados.promedio)}</p>
             <p>Mínimo: $ {resultados.minimo}</p>
             <p>Máximo: $ {resultados.maximo}</p>
-        </React.Fragment>
+            </div>
+         
+            <div className="grafico">
+            <Grafico data={ejeXY} minimo={resultados.minimo} maximo={resultados.maximo}/>
+            </div>
+        </div>
 
     )
 }
