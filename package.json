@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "moment": "^2.26.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
@@ -35,5 +36,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Este proyecto fue realizado con el siguiente objetivo de  obtener y visualizar el valor del dólar para un período de tiempo determinado, consultando a la API de la SBIF",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milexys/Desafio-cumplo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milexys/Desafio-cumplo/issues"
+  },
+  "homepage": "https://github.com/Milexys/Desafio-cumplo#readme"
 }
